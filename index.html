@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal portfolio of Karol Reyes, a Web Developer with 1 year of experience.">
     <title>Karol Reyes - Web Developer</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
@@ -24,41 +27,53 @@
         <!-- Home Section -->
         <section id="home">
             <div class="hero">
-                <h1>Hi, I’m Karol Reyes — Web Developer</h1>
-                <p>As a passionate web developer with 1 year of experience, I specialize in building responsive and user-friendly web applications. My goal is to create innovative solutions that solve real-world problems while continuously learning and growing in the tech industry.</p>
-                <img src="images/profile-placeholder.jpg" alt="Profile photo of Karol Reyes" width="200" height="200">
+                <h1>Hi, I'm Karol Reyes — Web Developer</h1>
+                <p>As a passionate web developer with 1 year of experience, I specialize in building responsive and
+                    user-friendly web applications. My goal is to create innovative solutions that solve real-world
+                    problems while continuously learning and growing in the tech industry.</p>
+                <img src="images/profile-placeholder.jpg" alt="Profile photo of Karol Reyes" width="300xp" height="300xp">
             </div>
             <div class="experience">
                 <p>1 year of experience in web development</p>
             </div>
-            <div class="skills">
-                <h2>Technical Skills</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Node.js</li>
-                    <li>Express</li>
-                    <li>MySQL</li>
-                    <li>MongoDB</li>
-                </ul>
-                <h2>Soft Skills</h2>
-                <ul>
-                    <li>Teamwork</li>
-                    <li>Communication</li>
-                    <li>Adaptability</li>
-                    <li>Problem-solving</li>
-                </ul>
+            <h2>Technical Skills</h2>
+            <div class="skills-carousel">
+                <div class="carousel-container">
+                    <div class="slide"><img src="images/html-logo.png" alt="HTML Logo" class="skill-icon"></div>
+                    <div class="slide"><img src="images/css-logo.png" alt="CSS Logo" class="skill-icon"></div>
+                    <div class="slide"><img src="images/javascript-logo.png" alt="JavaScript Logo" class="skill-icon">
+                    </div>
+                    <div class="slide"><img src="images/nodejs-logo.png" alt="Node.js Logo" class="skill-icon"></div>
+                    <div class="slide"><img src="images/express-logo.png" alt="Express Logo" class="skill-icon"></div>
+                    <div class="slide"><img src="images/mysql-logo.png" alt="MySQL Logo" class="skill-icon"></div>
+                    <div class="slide"><img src="images/mongdb-logo.png" alt="MongoDB Logo" class="skill-icon"></div>
+                </div>
+                <!-- <button class="carousel-prev" aria-label="Previous Skill">❮</button>
+                    <button class="carousel-next" aria-label="Next Skill">❯</button> -->
+            </div>
+            <h2>Soft Skills</h2>
+            <div class="soft-skills-grid">
+                <div class="soft-skill"> Effective Communication</div>
+                <div class="soft-skill"> Teamwork & Collaboration</div>
+                <div class="soft-skill"> Problem-Solving</div>
+                <div class="soft-skill"> Adaptability & Flexibility</div>
+                <div class="soft-skill"> Time Management & Organization</div>
+                <div class="soft-skill"> Critical & Analytical Thinking</div>
+                <div class="soft-skill"> Attention to Detail</div>
+                <div class="soft-skill"> Empathy & Interpersonal Skills</div>
+            </div>
             </div>
         </section>
+
 
         <!-- Projects Section -->
         <section id="projects">
             <h2>My Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <h3>Project 1: Simple Blog App</h3>
-                    <img src="images/project1-placeholder.jpg" alt="Thumbnail for Simple Blog App" width="300" height="200">
+                    <h3>Fake Store</h3>
+                    <img src="images/project1-placeholder.jpg" alt="Thumbnail for Simple Blog App" width="300"
+                        height="200">
                     <p>A basic blog application built with HTML, CSS, and JavaScript for content management.</p>
                     <p>Technologies: HTML, CSS, JavaScript</p>
                     <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -66,7 +81,8 @@
                 </div>
                 <div class="project-card">
                     <h3>Project 2: Task Manager</h3>
-                    <img src="images/project2-placeholder.jpg" alt="Thumbnail for Task Manager" width="300" height="200">
+                    <img src="images/project2-placeholder.jpg" alt="Thumbnail for Task Manager" width="300"
+                        height="200">
                     <p>A task management tool using Node.js and Express for backend, with MySQL for data storage.</p>
                     <p>Technologies: Node.js, Express, MySQL</p>
                     <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -74,7 +90,8 @@
                 </div>
                 <div class="project-card">
                     <h3>Project 3: E-commerce Site</h3>
-                    <img src="images/project3-placeholder.jpg" alt="Thumbnail for E-commerce Site" width="300" height="200">
+                    <img src="images/project3-placeholder.jpg" alt="Thumbnail for E-commerce Site" width="300"
+                        height="200">
                     <p>An online store prototype with user authentication and product listings using MongoDB.</p>
                     <p>Technologies: JavaScript, Node.js, MongoDB</p>
                     <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -86,11 +103,12 @@
 
     <footer id="contact">
         <p>Contact me:</p>
-        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">GitHub</a>
-        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">LinkedIn</a>
-        <a href="mailto:karolreyes@example.com" aria-label="Send Email">Email</a>
+        <a href="https://github.com/KarolainReyes" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">GitHub</a>
+        <a href="https://www.linkedin.com/in/karolain-huerfano-45b679348/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">LinkedIn</a>
+        <a href="mailto:reyeskarol0412@gmail.com" aria-label="Send Email">Email</a>
     </footer>
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
